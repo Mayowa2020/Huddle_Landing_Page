@@ -188,20 +188,27 @@ footer {
 	display: grid;
 	grid-template-columns: 1.5fr 0.5fr 0.5fr 1fr;
 	justify-content: space-around;
-	align-items: center;
-	height: 500px;
-	padding-top: 3rem;
+	align-items: flex-start;
+	height: auto;
+	padding-top: 10rem;
 	font-size: 14px;
 }
 
 .col-2,
 .col-3,
 .col-4 {
-	margin-left: 6rem;
+	margin-left: 4rem;
+	margin-top: 3rem;
 }
 
 .col-4 {
+	display: flex;
 }
+
+li.copyright {
+	padding-top: 10rem;
+}
+
 .footer-logo {
 	filter: grayscale(100%) invert(100%);
 	width: 35%;
@@ -231,12 +238,16 @@ div > img {
 	margin-top: 0.5rem;
 }
 
-.final {
-	background-color: hsl(192, 100%, 9%);
-	color: white;
-	font-size: 11px;
-}
+@media only screen and (max-width: 600px) {
+	footer {
+		display: block;
+	}
 
-.final p {
-	margin-left: 80%;
+	li.copyright {
+		padding-top: 0.5rem;
+	}
+
+	.fifth-row div {
+		padding: 1 3rem;
+	}
 }

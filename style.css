@@ -192,19 +192,15 @@ footer {
 	height: 500px;
 	padding-top: 3rem;
 	font-size: 14px;
-	position: relative;
 }
 
 .col-2,
 .col-3,
 .col-4 {
-	margin-left: 5rem;
+	margin-left: 6rem;
 }
 
 .col-4 {
-	position: absolute;
-	top: 12.5rem;
-	right: 14rem;
 }
 .footer-logo {
 	filter: grayscale(100%) invert(100%);
@@ -214,7 +210,7 @@ footer {
 
 footer .col-1 {
 	width: 80%;
-	margin-left: 6rem;
+	margin-left: 4rem;
 }
 
 footer li {

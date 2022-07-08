@@ -186,7 +186,7 @@ footer {
 	background-color: hsl(192, 100%, 9%);
 	color: hsl(193, 100%, 96%);
 	display: grid;
-	grid-template-columns: 1.5fr 0.5fr 0.5fr 1fr;
+	grid-template-columns: 1.7fr 0.5fr 0.5fr 1.3fr;
 	justify-content: space-around;
 	align-items: flex-start;
 	height: auto;
@@ -197,8 +197,8 @@ footer {
 .col-2,
 .col-3,
 .col-4 {
-	margin-left: 4rem;
-	margin-top: 3rem;
+	margin-left: 5rem;
+	margin-top: 2.8rem;
 }
 
 .col-4 {
@@ -207,6 +207,7 @@ footer {
 
 li.copyright {
 	padding-top: 10rem;
+	font-size: 12px;
 }
 
 .footer-logo {
@@ -217,7 +218,7 @@ li.copyright {
 
 footer .col-1 {
 	width: 80%;
-	margin-left: 4rem;
+	margin-left: 5rem;
 }
 
 footer li {
@@ -244,10 +245,15 @@ div > img {
 	}
 
 	li.copyright {
-		padding-top: 0.5rem;
+		padding-top: 0;
 	}
 
-	.fifth-row div {
-		padding: 1 3rem;
+	.col-4 {
+		justify-content: center;
+		margin-left: 0;
+	}
+
+	.social-list-items {
+		margin-left: 2rem;
 	}
 }

@@ -253,7 +253,12 @@ div > img {
 		margin-left: 0;
 	}
 
-	.social-list-items {
-		margin-left: 2rem;
+	.col-4 ul > li > :nth-child(1) {
+		margin-left: 4.5rem;
+	}
+
+	.fifth-row div {
+		width: 80%;
+		padding: 4rem 0;
 	}
 }

@@ -245,7 +245,11 @@ div > img {
 	.third-row,
 	.fourth-row,
 	footer {
-		display: block;
+		grid-template-columns: 1fr;
+	}
+
+	.grid-reversed :nth-child(1) {
+		order: 1;
 	}
 
 	.first-row,
@@ -271,7 +275,10 @@ div > img {
 	.first-row,
 	.second-row h4,
 	.third-row h4,
-	.fourth-row h4 {
+	.fourth-row h4,
+	.second-row p,
+	.third-row p,
+	.fourth-row p {
 		text-align: center;
 	}
 
@@ -299,7 +306,7 @@ div > img {
 	}
 
 	.fifth-row div {
-		width: 80%;
+		width: 90%;
 		padding: 4rem 0;
 	}
 
@@ -341,7 +348,17 @@ div > img {
 		margin-bottom: 2rem;
 	}
 
-	h4.hrow-4 {
+	#sub-heading-2,
+	#sub-heading-3,
+	#sub-heading-4 {
 		padding-top: 3rem;
+	}
+
+	.first-row h2 {
+		font-size: 22px;
+	}
+
+	.fifth-row h3 {
+		font-size: 19px;
 	}
 }

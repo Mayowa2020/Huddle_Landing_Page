@@ -239,6 +239,17 @@ div > img {
 	margin-top: 0.5rem;
 }
 
+button:hover {
+	background-color: hsl(322, 87%, 82%);
+	transition: 0.7s;
+	cursor: pointer;
+}
+
+.btn-1:hover {
+	background-color: rgb(235, 251, 255);
+	transition: 0.7s;
+}
+
 @media only screen and (max-width: 600px) {
 	.first-row,
 	.second-row,
